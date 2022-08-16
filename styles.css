@@ -39,12 +39,17 @@ a:visited {
   display: flex;
   margin-bottom: 20px;
 }
+/* адаптация под размер экрана */
 @media (max-width: 700px) {
   .info {
     text-align: center;
     display: block;
   }
+  .info-text {
+    margin-left: 0px;
+  }
 }
+/* адаптация под размер экрана */
 .info-text {
   margin-left: 40px;
 }
@@ -179,7 +184,7 @@ a:visited {
   border-radius: 15%;
 }
 .btn:hover {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 /* position */
 /* .position {
